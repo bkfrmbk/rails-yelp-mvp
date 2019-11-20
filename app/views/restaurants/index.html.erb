@@ -1,0 +1,7 @@
+<h1>Welcome to Zelp!</h1>
+
+<ul>
+  <% @restaurants.each do |restaurant| %>
+    <li><%= restaurant.name %> - <%= restaurant.category %></li>
+  <% end %>
+</ul>
